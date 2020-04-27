@@ -1,3 +1,7 @@
+#!/usr/local/anaconda3/bin/python
+
+from typing import List
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         
@@ -13,4 +17,5 @@ class Solution:
 
 if __name__ == "__main__":
     s = Solution()
-    s.twoSum([2,3,4,5], 7)
+    print(s.twoSum([2,3,4,5], 7))
+
